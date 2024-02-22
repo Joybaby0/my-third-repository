@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.header-el{
+    width: 400px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    margin-top: 20px;
+    /* transition: 2s; */
+}
+
+.text{
+    border-top: 1px solid black;
+    padding: 10px;
+    display: none;
+}
+
+.show-text .text{
+    display: block;
+}
+
+.minus-btn{
+    display: none;
+}
+
+.show-text .minus-btn{
+    display: inline;
+}
+
+.show-text .plus-btn{
+    display: none;
+}
